@@ -18,7 +18,8 @@ public class Solution {
 
         // Exponentiation by sqauring
         while (N > 0) {
-           if (N % 2 == 1) {
+            if (N % 2 == 1) {
+            //Incase n is an odd number
                 result *= currentProduct;
             }
             // square the base
